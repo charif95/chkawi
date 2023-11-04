@@ -11,7 +11,7 @@ int main()
 
 	Result = !(12 >= 12);
 	cout << Result;
-
+	cout << !Result
 		
 
 
