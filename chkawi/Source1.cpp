@@ -9,7 +9,10 @@ int main()
 {
 	bool Result;
 
-	Result = !(12 >= 12)
+	Result = !(12 >= 12);
+	cout << Result;
+
+		
 
 
 
