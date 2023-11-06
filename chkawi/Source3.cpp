@@ -38,6 +38,20 @@ class Src3
 
 
 	}
+	
+	public: void circleSquare () {
+
+		int A = 10, PI=3.14, Area; 
+
+
+		Area = ceil(PI * A * A) / 4; 
+
+		cout << "the Circle area inscibed in square is: " << Area << endl;
+
+
+
+
+	}
 
 
 

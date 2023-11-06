@@ -12,7 +12,7 @@ int main()
 	src.rectangle();
 	src.circle();
 	src.circleDiameter();
-
+	src.circleSquare(); 
 	/*bool Result, True; 
 
 
