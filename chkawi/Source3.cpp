@@ -6,7 +6,7 @@ class Src3
 {
 	public: void rectangle() {
 
-		double a = 5, d = 40, Area;
+		int a = 5, d = 40, Area;
 
 		Area = a * sqrt(d * d - a * a);
 
@@ -16,7 +16,7 @@ class Src3
 
 	public: void circle() {
 
-		double r = 5, PI=3.14, Area; 
+		int r = 5, PI=3.14, Area; 
 
 
 		Area = ceil(PI * r * r);
@@ -25,6 +25,20 @@ class Src3
 
 
 	}
+
+	public: void circleDiameter () {
+
+		int D = 10, PI=3.14, Area; 
+
+
+		Area = ceil(PI * D * D)/4;
+
+		cout << "the Circle Through Diameter area is: " << Area << endl;
+
+
+
+	}
+
 
 
 };

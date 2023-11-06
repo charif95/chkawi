@@ -11,6 +11,7 @@ int main()
 	Src3 src;
 	src.rectangle();
 	src.circle();
+	src.circleDiameter();
 
 	/*bool Result, True; 
 
