@@ -2,12 +2,17 @@
 //
 
 #include <iostream>
+#include "Source3.cpp"
 using namespace std;
 
 
 int main()
 {
-	bool Result, True; 
+	Src3 src;
+	src.rectangle();
+	src.circle();
+
+	/*bool Result, True; 
 
 
 	cout << (12 >= 12) << endl;
@@ -72,7 +77,7 @@ int main()
 	cout << Result << endl;
 
 	Result = ((5 > 6) && !(7 <= 8) && (8 > 1 || 4 <= 3)) || true;
-	cout << Result << endl; 
-
+	cout << Result << endl; */
+	return 0;
 }
 
