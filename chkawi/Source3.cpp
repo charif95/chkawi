@@ -25,6 +25,17 @@ class Src3
 
 
 	}
+public: void circle() {
+
+		double r = 5, PI=3.14, Area; 
+
+
+		Area = ceil(PI * r * r);
+
+		cout << "the Circle area is: " << Area << endl;
+
+
+	}
 
 
 };
