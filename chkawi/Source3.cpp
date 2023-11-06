@@ -53,6 +53,38 @@ class Src3
 
 	}
 
+	public: void circleSquareAround () {
+
+		int a=5, b=6, c=7;
+
+		float PI = 3.14, Area, p, T;
+	/*	   cout << "Please enter the first number a: " << endl;
+		   cin >> a; 
+		   cout << "Please enter the second number b: " << endl;
+		   cin >> b;
+		   cout << "Please enter the thert number c: " << endl;
+		   cin >> c;*/
+
+		   p = (a + b + c) / 2;
+		   cout << p << endl;
+
+
+		   T = (a * b * c) / (4 * sqrt(p * (p - a) * (p - b) * (p - c)));
+
+		   cout << T << endl;
+		   T = T* T;
+
+		   Area =floor(PI * T);
+
+		cout << "the Circle area Circle described around an arbitrary triangle is: " << Area << endl;
+
+
+
+
+
+
+	}
+
 
 
 };

@@ -13,6 +13,8 @@ int main()
 	src.circle();
 	src.circleDiameter();
 	src.circleSquare(); 
+	src.circleSquareAround();
+
 	/*bool Result, True; 
 
 
