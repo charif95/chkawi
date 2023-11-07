@@ -14,6 +14,9 @@ int main()
 	src.circleDiameter();
 	src.circleSquare(); 
 	src.circleSquareAround();
+	//src.circleCircumference();
+	src.circleIsoscelesTriangle();   
+
 
 	/*bool Result, True; 
 
