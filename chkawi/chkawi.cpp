@@ -3,20 +3,23 @@
 
 #include <iostream>
 #include "Source3.cpp"
+#include "Source1.cpp"
 using namespace std;
 
 
 int main()
 {
 	Src3 src;
+	Src1 red; 
+
 	src.rectangle();
 	src.circle();
 	src.circleDiameter();
 	src.circleSquare(); 
 	src.circleSquareAround();
 	//src.circleCircumference();
-	src.circleIsoscelesTriangle();   
-
+	//src.circleIsoscelesTriangle();   
+	red.power();  
 
 	/*bool Result, True; 
 

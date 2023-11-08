@@ -14,6 +14,7 @@ public: void rectangle() {
 
 }
 
+
 public: void circle() {
 
 	int r = 5, PI = 3.14, Area;
