@@ -4,24 +4,26 @@
 #include <iostream>
 #include "Source3.cpp"
 #include "Source1.cpp"
+#include "Source4.cpp"
 using namespace std;
 
 
 int main()
 {
-	Src3 src;
+	//Src3 src;
 	Src1 red; 
-
-	src.rectangle();
+	Src4 src;
+	/*src.rectangle();
 	src.circle();
 	src.circleDiameter();
-	src.circleSquare(); 
-	src.circleSquareAround();
+	src.circleSquare(); */
+	//src.circleSquareAround();
 	//src.circleCircumference();
 	//src.circleIsoscelesTriangle();   
 	//red.power();  
 	red.power2();
-							
+	src.second1();
+
 	/*bool Result, True; 
 
 
