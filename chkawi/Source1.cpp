@@ -28,15 +28,12 @@ using namespace std;
 		
 		public: void power2() {
 
-			int a, M;
+			int a=2;  
+			int M=4; 
 
-			cout << "enter the number a" << endl;
-			cin >> a;
-			cout << "enter the number M" << endl;
-			cin >> M;
+			cout << "Power value : a^M=(2^4) : " << pow(a, M) << endl;
+
 			
-		
-
-}
+}			
 };
 

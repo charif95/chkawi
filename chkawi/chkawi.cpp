@@ -19,8 +19,9 @@ int main()
 	src.circleSquareAround();
 	//src.circleCircumference();
 	//src.circleIsoscelesTriangle();   
-	red.power();  
-
+	//red.power();  
+	red.power2();
+							
 	/*bool Result, True; 
 
 
