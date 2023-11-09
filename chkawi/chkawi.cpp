@@ -22,7 +22,8 @@ int main()
 	//src.circleIsoscelesTriangle();   
 	//red.power();  
 	red.power2();
-	src.second1();
+	//src.second1();
+	src.second2(); 
 
 	/*bool Result, True; 
 

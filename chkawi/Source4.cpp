@@ -9,7 +9,7 @@ public: void second1() {
 	int NumberOfDays, NumberOfHours,
 		NumberOfMinutes, NumberOfSeconds, TotalSeconds;
 
-		
+
 
 	cout << "Please enter the NumberOfDays \n";
 	cin >> NumberOfDays;
@@ -21,9 +21,43 @@ public: void second1() {
 	cin >> NumberOfSeconds;
 
 	TotalSeconds = (NumberOfDays * 24 * 60 * 60) + (NumberOfHours * 60 * 60) +
-		(NumberOfMinutes * 60) + NumberOfSeconds; 
+		(NumberOfMinutes * 60) + NumberOfSeconds;
 
 	cout << "Total seconds = " << TotalSeconds << endl;
+
+}
+
+
+
+	public: void second2() {
+
+	int NumberOfDays, NumberOfHours,
+		NumberOfMinutes, NumberOfSeconds, TotalSeconds,
+		SecondPerDay = 24 * 60 * 60,
+		SecondPerHour = 60 * 60,
+		SecondPerMinute = 60,
+		Remainder;
+
+
+
+	cout << "Please enter the total seconds \n";
+	cin >> TotalSeconds;
+
+	NumberOfDays = round(TotalSeconds / SecondPerDay);
+	Remainder = TotalSeconds % SecondPerDay;
+	NumberOfHours = round(Remainder / SecondPerHour);
+	Remainder = Remainder % SecondPerHour;
+	NumberOfMinutes = round(Remainder / SecondPerMinute);
+	Remainder = Remainder % SecondPerMinute;
+	NumberOfSeconds = Remainder;
+
+	cout << NumberOfDays << ':' << NumberOfHours << ':' << NumberOfMinutes << ':' << NumberOfSeconds << endl;
+
+
+
+
+
+
 
 
 
